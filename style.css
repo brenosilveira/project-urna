@@ -18,7 +18,7 @@ body {
     display: flex;  
 }
 
-.tela {
+.screen {
     width: 500px;
     height: 320px;
     background: linear-gradient(to right, #E8E8E8, #C1C1C1);
@@ -27,18 +27,18 @@ body {
     flex-direction: column;
 }
 
-.teclado {
+.keyboard {
     margin-left: 30px;
     background-color: #403A3A;
 }
 
-.teclado-line {
+.keyboard-line {
     display: flex;
     justify-content: center;
     align-items: flex-end;
 }
 
-.teclado-button {
+.keyboard-button {
     width: 70px;
     height: 40px;
     background-color: #000;
@@ -102,7 +102,7 @@ body {
     height: 50px;
 }
 
-.numero {
+.number {
     display: inline-block;
     width: 30px;
     height: 40px;
@@ -151,4 +151,20 @@ body {
     font-size: 14px;
     border-top: 2px solid #000;
     padding-left: 10px;
+}
+
+.warning--big {
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.finish {
+    font-size: 70px;
+    font-weight: bold;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
 }
